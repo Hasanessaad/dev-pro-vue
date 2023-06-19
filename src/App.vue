@@ -12,7 +12,6 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="pesquisa" type="search" placeholder="Search" aria-label="Search">
-        <img src="./assets/profilpic.png" alt="logo" class="pic">
       </form>
     </nav>
   </header>
@@ -56,10 +55,7 @@ form {
 ul, .list-pro{
   background-color: #121212;
 }
-.pic{
-  height: 30px;
-  margin: 0;
-}
+
 .foto{
 height: 50px;
 width: 150px;

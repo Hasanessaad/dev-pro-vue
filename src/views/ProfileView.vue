@@ -16,12 +16,11 @@
           <h3>Following</h3>
           <h3>Followers</h3>
           <h3>Projects</h3>
-        </div>  
+        </div>
       </div>
 
       <div class="col-2">
-        <div class="profile-pic">
-        </div>
+        <img src="../assets/profilpic.png" alt="logo" class="pic">
         <div class="contact">
           <div class="discord"></div>
           <div class="github"></div>
@@ -44,6 +43,7 @@
           </ul>
         </div>
       </div>
+
       <div class="col-4">
         <button class="more-info" submit="">more info</button>
       </div>
@@ -108,9 +108,54 @@
 <style>
 .row-1{
   display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
 }
-
-
+.col-1{
+  border: 1px solid purple;
+  padding: 30px;
+  display: list-item;
+  justify-content: center;
+  align-items: center;
+}
+.username{
+  display: flex;
+  justify-content: center;
+}
+.numbers{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.followers{
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+}
+.col-2{
+  border: 3px solid green;
+  display: list-item;
+  justify-content: space-around;
+  align-items: space-between;
+padding: 30px;
+}
+.pic{
+  height: 150px;
+  width: 150px;
+}
+.contact{
+  border: 1px solid blue;
+}
+.discord{
+  border: 1px solid yellow;
+  height: 30px;
+  width: 25px;
+}
+.col-3{
+  border: 1px solid yellow;
+}
+.col-4{
+}
 .profile {
 color: aliceblue;
 }
